@@ -19,15 +19,23 @@ h3 {
 /* Header */
 header {
   text-align: center;
+  display:flex;
+  align-items: center;
 }
-
+#title {
+  flex:1;
+  margin-left: 300px;
+}
 /* Containers */
 div {
   background-color: #eae2b7;
   margin: auto;
   width: 600px;
 }
-
+nav {
+  flex:1;
+  margin-right: 290px;
+}
 article {
   padding: 50px 0;
 }
@@ -36,12 +44,26 @@ article div {
   text-align: center;
   width: 100%;
 }
-
+#photo-and-intro {
+  display:flex;
+}
+#portfolio {
+  display: flex;
+  justify-content: center;
+  text-align: center;
+}
 /* Paragraphs */
 p {
   line-height: 1.5;
 }
+#portfolio p {
+  font-size: 14px;
+}
+#item {
+  flex:1;
+  margin-right: 10px;
 
+}
 /* Links */
 a:link {
   color: #d62828;
@@ -50,7 +72,6 @@ a:link {
 a:hover {
   color: #f77f00;
 }
-
 nav a {
   padding-left: 20px;
 }
